@@ -9,4 +9,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('angularProject');
+
+  getAngularVersion(): string {
+    return '20.3.0';
+  }
 }
